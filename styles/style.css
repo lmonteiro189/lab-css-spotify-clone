@@ -1,66 +1,119 @@
-body{
-    text-decoration-color: #1A1A1A;
+/* --- general --- */
+* {
+    box-sizing: border-box;
 }
+body, p, li, ul, input, button, form, ol {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
 h1{
     color: #FFF;
+    font-size: 90px;
 }
 h2{
     display: flex;
     justify-content: center;
+    font-size: 48px;
+    padding: 10px;
+    border-bottom: solid 0.3rem #00B172;
+    margin: 50px 550px 50px 550px;
 }
 h3{
     color: #00B172;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
 }
-h4{
-    color: #FFF;
-}
+/* --- spefics --- */
+    /* --- navbar --- */
 nav{
     display: flex;
-}
-nav > img{
-    width: 20%;
-}
-nav > ul > li{
-    text-decoration: none;
-    color: #1A1A1A;
-    display: flex;
-    flex-direction: column;
+    padding: 25px 50px 25px 50px;
     align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+}
+nav img{
+    width: 13rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    margin-right: 3000px;
+    margin-left: 20%;
+}   
+nav ul li {
+    margin-left: 2rem;
 }
 .landing{
     background-image: url(/images/landing.jpg);
     background-position: center;
     background-size: cover;
     color: #FFF;
-    margin: 0px;
-    padding: 350px;
+    padding: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
+.landing p{
+    font-size: 35px;
+    line-height: 1.2;
+}
+
+    /* --- section 1 --- */
 .boxes{
     display: flex;
     align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 55px 55px 110px 55px;
+    
 }
 .boxes img{
-    width: 150px;
+    width: 9rem;
+    display: flex;
+    margin: auto;
 }
+.boxes p{
+    font-size: 28px;
+    font-weight: 300;
+    padding: 0px 70px;
+    text-align: center;
+}
+    /* --- section 2 --- */
+
 .lastsection{
     background-color: #00B172;
     color: #FFF;
     display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 50px;
+}
+.lastsection > div{
+    padding: 30px 50px;
 }
 .lastsection hr{
     color: #FFF;
     width: 300px;
+}
+.lastsection span{
+    font-size: 25px;
+    line-height: 3rem;
+}
+.boldtext{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 5rem;
 }
 #iconwhite{
     width: 100px;
 }
 #spotifyapp{
     width: 300px;
-}
-#h2underline{
-    border-bottom: #FFF;
 }
