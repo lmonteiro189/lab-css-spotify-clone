@@ -15,10 +15,11 @@ h1{
 h2{
     display: flex;
     justify-content: center;
-    font-size: 48px;
+    font-size: 43px;
     padding: 10px;
     border-bottom: solid 0.3rem #00B172;
-    margin: 50px 550px 50px 550px;
+    margin: 50px 600px;
+
 }
 h3{
     color: #00B172;
@@ -96,7 +97,8 @@ nav ul li {
     margin: 50px;
 }
 .lastsection > div{
-    padding: 30px 50px;
+    padding: 10px 60px;
+
 }
 .lastsection hr{
     color: #FFF;
@@ -104,16 +106,24 @@ nav ul li {
 }
 .lastsection span{
     font-size: 25px;
-    line-height: 3rem;
 }
 .boldtext{
     font-size: 28px;
     font-weight: bold;
     line-height: 5rem;
 }
+.titlelastsection{
+    font-size: 40px;
+    color: white;
+    padding: 5px 0px;
+    font-weight: bold;
+}
 #iconwhite{
-    width: 100px;
+    width: 150px;
+    display: flex;
+    margin-right: auto;
 }
 #spotifyapp{
-    width: 300px;
+    width: 500px;
+    padding: 60px;
 }
